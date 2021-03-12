@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Permanent+Marker&display=swap');
 
+/* Common Styles */
 * {
   font-family: 'Permanent Marker', sans-serif;
   margin: 0;
@@ -11,6 +12,17 @@
 
 p {
   font-family: 'Patrick Hand', Cambria, Georgia, serif;
+}
+
+.section-heading {
+  font-size: 9rem;
+  font-weight: 900;
+  color: #fbfcfc;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.5rem;
+  text-shadow: 0.3rem 0.3rem 0.3rem #333;
+  transform: translate(0%, -70%);
 }
 
 /* Setting 1 rem to 10px */
@@ -29,17 +41,6 @@ html {
   justify-content: space-evenly;
 }
 
-.section-heading {
-  font-size: 9rem;
-  font-weight: 900;
-  color: #fbfcfc;
-  text-align: center;
-  text-transform: capitalize;
-  letter-spacing: 0.5rem;
-  text-shadow: 0.3rem 0.3rem 0.3rem #333;
-  transform: translate(0%, -70%);
-}
-
 .section-1-icons {
   font-size: 24rem;
   color: #fbfcfc;
@@ -54,3 +55,58 @@ html {
   transition: transfor .3s .3s;
 }
 /* End of Section 1 */
+
+/* Section 2 */
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  background-color: #008080bd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10rem 0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* padding: 0 5%; */
+}
+
+.card {
+  width: 30rem;
+  background-color: #333;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1rem 1rem 1rem #000;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-name {
+  font-size: 3rem;
+  /* font-weight: 900; */
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+  color: #fbfcfc;
+  margin: 2rem 0;
+  text-shadow: .15rem .15rem .15rem #008080;
+}
+
+.card-btn {
+  width: 70%;
+  background: #111;
+  color: #00c0c0;
+  font-size: 1.7rem;
+  border-radius: 2rem;
+  letter-spacing: 0.2rem;
+  /* font-weight: 800; */
+  text-transform: capitalize;
+  border: 1px solid #00c0c0;
+}
+/* End of Section 2 */
